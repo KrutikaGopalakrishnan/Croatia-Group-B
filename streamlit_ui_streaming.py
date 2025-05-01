@@ -10,7 +10,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from Web_Search_Agent.src import agent, AgentDeps
+from agent import AgentDeps
 
 # Import all the message part classes from Pydantic AI
 from pydantic_ai.messages import ModelRequest, ModelResponse, PartDeltaEvent, PartStartEvent, TextPartDelta
